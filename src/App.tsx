@@ -1,7 +1,8 @@
 import React from 'react';
+import Posts from './components/Posts';
 
 const App: React.FC = () => {
-	return <h1>Performance React</h1>;
+	return <Posts />;
 };
 
 export default App;
